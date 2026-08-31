@@ -3,9 +3,9 @@ entries:
   taskflow-notification:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-31T10:54:22.318029328Z"
+    created: "2026-08-31T11:20:02.809336379Z"
     description: A Helm chart for Kubernetes
-    digest: 42eb45326855311ab6071c8f3d1ffff084a7024ff050198812c376af97f9d9e0
+    digest: 3b914b4a6975716b4d9deb20596baf7acc1979e34aad7576c4c42d32e85d505c
     name: taskflow-notification
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-31T10:54:22.317532772Z"
+    created: "2026-08-31T11:20:02.808517332Z"
     description: A Helm chart for Kubernetes
     digest: ebecc67e83e0dc4fe46149ecc7c31d3d5b6425adc825930dac4ecf9354fbeeb3
     name: taskflow-notification
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://aliazam896.github.io/lab4/taskflow-notification-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-31T10:54:22.316823866Z"
+generated: "2026-08-31T11:20:02.80742772Z"

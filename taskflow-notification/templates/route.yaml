@@ -1,0 +1,13 @@
+{{- if .Values.route.host }}
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: {{ include "taskflow-notification.fullname" . }}
+spec:
+  host: {{ .Values.route.host }}
+  to:
+    kind: Service
+    name: {{ include "taskflow-notification.fullname" . }}
+  port:
+    targetPort: http
+{{- end }}
